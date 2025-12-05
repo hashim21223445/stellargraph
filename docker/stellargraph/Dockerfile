@@ -1,4 +1,4 @@
-FROM python:3.6-slim
+FROM python:3.14.1-slim
 
 RUN adduser --disabled-password --gecos '' stellar
 # If WORKDIR creates the directory, it's owned by root, but it needs to be owned by stellar
